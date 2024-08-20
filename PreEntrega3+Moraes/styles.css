@@ -1,0 +1,127 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding: 0;
+    background-color: white;
+}
+
+p {
+    font-weight:bold;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin: 1em 0; /* Espacio arriba y abajo del título */
+    font-size: 1.2em; /* Tamaño de fuente del título */
+    height: 50px;
+}
+
+header {
+    background-color: rgba(206, 204, 204, 0.284);
+    color:  rgb(212, 164, 224);
+    padding: 2em;
+    text-align: center;
+}
+
+#tituloProductos {
+    text-align: center;
+}
+
+#productos {
+    display:flex;
+    flex-wrap: wrap; /* Permite que los productos se ajusten a la pantalla si es necesario */
+    padding: 1em;
+    gap: 30px;
+    justify-content: center;
+}
+
+.producto {
+    background-color: rgba(254, 254, 254, 0.284);
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(48, 43, 43, 0.284);
+    text-align: center;
+    width: 200px; /* Ancho fijo para los productos */
+    box-sizing: border-box; /* Incluye el padding en el cálculo del ancho */
+    margin-bottom: 1em; /* Espacio entre filas de productos */
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    justify-content: space-between; /* Espacio entre los elementos */
+    min-height: 400px; /* Altura mínima para mantener la consistencia */
+}
+
+.producto img {
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor del producto */
+    height: 200px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Ajusta la imagen para llenar el contenedor sin distorsionar */
+    display: block;
+    margin: 0 auto; /* Centra la imagen */
+}
+
+h3 {
+    margin: 1em 0; /* Espacio arriba y abajo del título */
+    font-size: 1.2em; /* Tamaño de fuente del título */
+}
+
+button {
+    background-color: rgb(212, 164, 224);
+    color: rgb(255, 255, 255);
+    padding: 0.5em 1em;
+    border: 2px white solid;
+    border-radius: 5px;
+    cursor: pointer; /* Cambia el cursor a una mano */
+    margin-top: auto; /* Empuja el botón al final del contenedor */
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(212, 164, 224);
+    border: 2px solid rgb(212, 164, 224);
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgba(206, 204, 204, 0.284);
+    color:  rgb(212, 164, 224);
+    padding: 2em;
+    text-align: center;
+}
+
+#totalCarrito {
+    text-align: center;
+    background-color: rgb(212, 164, 224);
+    color: rgb(255, 255, 255);
+    padding: 0.2em 0.5em;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+
+#carritoVacio {
+    text-align: center;
+}
+
+#listaCarrito {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0 auto; /* Centra la lista en el contenedor */
+    border: 1px solid rgba(206, 204, 204, 0.284);
+    border-radius: 5px; 
+    background-color: rgb(212, 164, 224);
+    text-align: center;
+    max-width: 400px; /* Ajusta el ancho máximo de la lista */
+}
+
+#listaCarrito li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 17px; 
+    color: #333; 
+}
+
+#listaCarrito li:last-child {
+    border-bottom: none; 
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> tienda mora fit</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header> 
+        <h1> mora fit</h1>
+        <button id="verCarrito">Abrir Carrito</button>
+    </header>
+
+    <main>
+    
+    <h2>Productos </h2>
+    <section id="productos">
+        <div class="producto" data-id="1">
+            <img src="1.png" alt="Calza deportiva"/>
+            <h3> Calza deportiva</h3>
+            <p>$1290</p>
+            <button class="agregarAlCarrito" data-nombre="Calza deportiva" data-precio="1290">Agregar al Carrito</button>
+        </div>
+
+        <div class="producto" data-id="2">
+            <img src="Top .png" alt="Calza deportiva"/>
+            <h3>Top deportivo</h3>
+            <p>$690</p>
+            <button class="agregarAlCarrito" data-nombre="Top deportivo" data-precio="690">Agregar al Carrito</button>
+        </div>
+
+        <div class="producto" data-id="3">
+            <img src="campera.png" alt="Calza deportiva"/>
+            <h3>Campera deportiva</h3>
+            <p>$1590</p>
+            <button class="agregarAlCarrito" data-nombre="Campera deportiva" data-precio="1590">Agregar al Carrito</button>
+        </div>
+
+        <div class="producto" data-id="4">
+            <img src="Conjunto deportivo.png" alt="Calza deportiva"/>
+            <h3>Conjunto deportivo</h3>
+            <p>$1890</p>
+            <button class="agregarAlCarrito" data-nombre="Conjunto deportivo" data-precio="1890">Agregar al Carrito</button>
+        </div>
+
+        </section>
+
+        <section id="carrito" style="display:none">
+            <h2>Carrito de Compras</h2>
+            <ul id="listaCarrito"></ul>
+            <div id="carritoVacio">
+                <h4>No tienes nada aquí 👀</h4>
+            </div>
+            <div class="totalCarrito">
+                <h2> Total: <span id="totalCarrito">$0</span></h2>
+            </div>
+            <button id="vaciarCarrito">Vaciar Carrito</button>
+            <button id="CerrarCarrito">Cerrar Carrito</button>
+        </section>
+
+    </main>
+
+        <footer class="footer">
+            <div class="container">
+                <p>mora fit</p>
+            </div>
+        </footer>
+
+
+
+        <script src="scripts.js"></script>
+</body>
+</html>
