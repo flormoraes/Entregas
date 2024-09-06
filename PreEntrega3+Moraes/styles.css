@@ -7,27 +7,55 @@ body {
 
 p {
     font-weight:bold;
+    font-size: 19px;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 2.5em;
 }
 
 h2 {
     text-align: center;
+    color:  rgb(212, 164, 224);
+    font-size: 20px;
+}
+
+
+#tituloProductos {
+    color: rgb(212, 164, 224);
+    font-size: 20px;
+    margin-right: 10em;
+
+
 }
 
 h3 {
-    margin: 1em 0; /* Espacio arriba y abajo del título */
-    font-size: 1.2em; /* Tamaño de fuente del título */
+    font-size: 10em;
+    margin: 0.8em 0;
+    height: 50px;
+}
+
+.producto h3 {
+    font-size: 1.5em; 
+    margin-top: 20px;
     height: 50px;
 }
 
 header {
-    background-color: rgba(206, 204, 204, 0.284);
+
     color:  rgb(212, 164, 224);
-    padding: 2em;
+    padding: 1em;
     text-align: center;
 }
 
-#tituloProductos {
-    text-align: center;
+.headerOptions {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    justify-content: space-between;
 }
 
 #productos {
@@ -44,7 +72,7 @@ header {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(48, 43, 43, 0.284);
     text-align: center;
-    width: 200px; /* Ancho fijo para los productos */
+    width: 250px; /* Ancho fijo para los productos */
     box-sizing: border-box; /* Incluye el padding en el cálculo del ancho */
     margin-bottom: 1em; /* Espacio entre filas de productos */
     margin: 2em 0;
@@ -56,48 +84,81 @@ header {
 
 .producto img {
     width: 100%; /* La imagen ocupa todo el ancho del contenedor del producto */
-    height: 200px; /* Altura fija para las imágenes */
+    height: 250px; /* Altura fija para las imágenes */
     object-fit: cover; /* Ajusta la imagen para llenar el contenedor sin distorsionar */
     display: block;
     margin: 0 auto; /* Centra la imagen */
 }
 
-h3 {
-    margin: 1em 0; /* Espacio arriba y abajo del título */
-    font-size: 1.2em; /* Tamaño de fuente del título */
-}
 
 button {
     background-color: rgb(212, 164, 224);
     color: rgb(255, 255, 255);
     padding: 0.5em 1em;
     border: 2px white solid;
-    border-radius: 5px;
+    border-radius: 5px;; /* Border-radius aplicado */
     cursor: pointer; /* Cambia el cursor a una mano */
     margin-top: auto; /* Empuja el botón al final del contenedor */
+    text-align: center;
 }
 
 button:hover {
     background-color: white;
     color: rgb(212, 164, 224);
     border: 2px solid rgb(212, 164, 224);
+    border-radius: 5px; /* Border-radius debe cerrarse con punto y coma */
+}
+
+/* Especificidad para botones dentro de producto */
+.producto button {
+    border-radius: 5px;
+    width: 180px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+#vaciarCarrito {
     border-radius: 5px;
 }
 
+#CerrarCarrito{
+    border-radius: 5px;
+}
+
+#botonFinalizarCompra {
+    border-radius: 5px;
+}
+#verCarrito {
+    background: none; 
+    border: none;
+    padding: 0; 
+    cursor: pointer;
+}
+
+#verCarrito img {
+    display: block; /*Elimino espacios adicionales*/
+    width: 80px; 
+    height: 80px; 
+}
+
+
+#finalizarCompra {
+    text-align: center;
+}
+
 footer {
-    background-color: rgba(206, 204, 204, 0.284);
-    color:  rgb(212, 164, 224);
+    background-color: white;
     padding: 2em;
     text-align: center;
+
 }
 
 #totalCarrito {
     text-align: center;
-    background-color: rgb(212, 164, 224);
-    color: rgb(255, 255, 255);
-    padding: 0.2em 0.5em;
-    border: 1px white solid;
-    border-radius: 5px;
+    font-size: 22px;
+    color: rgb(212, 164, 224);
+    margin-top: 20px;
+
 }
 
 #carritoVacio {
@@ -105,6 +166,7 @@ footer {
 }
 
 #listaCarrito {
+    text-align: center;
     list-style-type: none; 
     padding: 0; 
     margin: 0 auto; /* Centra la lista en el contenedor */
@@ -119,9 +181,49 @@ footer {
     padding: 15px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     font-size: 17px; 
-    color: #333; 
+    color: #f8f8f8; 
 }
 
 #listaCarrito li:last-child {
     border-bottom: none; 
+}
+
+.filtrosRopa {
+    margin-top: 1%;
+    margin-right: 20em;
+    text-align: center; /* Centra el contenido dentro del div */
+    display: flex;
+    justify-content: center; /* Centramos los botones */
+    gap: 10px; /* Espacio entre los botones */
+    flex-wrap: wrap; /* Permite que los botones se ajusten si hay poco espacio */
+}
+
+
+.botonFiltro {
+    background-color: rgba(206, 204, 204, 0.284);
+    color: rgba(63, 63, 63, 0.284);
+    padding: 0.5em 1em;
+    border: 2px white solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    
+/* Estilos de hover para todos los botones de filtro */
+.botonFiltro:hover {
+    background-color: white;
+    color: rgb(212, 164, 224);
+    border: 2px solid rgb(212, 164, 224);
+    border-radius: 5px; /* Aquí falta el punto y coma */
+}
+
+#logomora {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+#banner {
+    width: 100%; 
+    height: 100%;
+    margin: auto;
 }

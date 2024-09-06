@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "imagen": "ImagenesProductos/Calza_Elliot.png",
+        "alt": "Calza deportiva",
+        "nombre": "Calza deportiva",
+        "precio": 1290,
+        "nombreBoton": "Calza Elliot"
+    },
+    {
+        "id": 2,
+        "imagen": "ImagenesProductos/Top_Eva.png",
+        "alt": "Buzo",
+        "nombre": "Buzo Eva",
+        "precio": 690,
+        "nombreBoton": "Top Eva"
+    },
+    {
+        "id": 3,
+        "imagen": "ImagenesProductos/campera_Sofi.png",
+        "alt": "Campera Deportiva",
+        "nombre": "Campera Sofi",
+        "precio": 1590,
+        "nombreBoton": "Campera Sofi"
+    },
+    {
+        "id": 4,
+        "imagen": "ImagenesProductos/Conjunto_Eva.png",
+        "alt": "Conjunto Deportivo",
+        "nombre": "Conjunto Eva",
+        "precio": 1890,
+        "nombreBoton": "Conjunto Eva"
+    },
+    {
+        "id": 5,
+        "imagen": "ImagenesProductos/top_sasha.png",
+        "alt": "Top deportivo",
+        "nombre": "Top Sasha",
+        "precio": 690,
+        "nombreBoton": "Top Sasha"
+    },
+    {
+        "id": 6,
+        "imagen": "ImagenesProductos/enterito.png",
+        "alt": "Conjunto Deportivo",
+        "nombre": "Enterito Pink",
+        "precio": 1690,
+        "nombreBoton": "Enterito Pink"
+    },
+    {
+        "id": 7,
+        "imagen": "ImagenesProductos/Calza_alexa.png",
+        "alt": "Calza deportiva",
+        "nombre": "Calza Alexa",
+        "precio": 1190,
+        "nombreBoton": "Calza Alexa"
+    },
+    {
+        "id": 8,
+        "imagen": "ImagenesProductos/calza_bruna.png",
+        "alt": "Calza deportiva",
+        "nombre": "Calza Bruna",
+        "precio": 1290,
+        "nombreBoton": "Calza Bruna"
+    },
+    {
+        "id": 9,
+        "imagen": "ImagenesProductos/top_camuflado.JPG",
+        "alt": "Top deportivo",
+        "nombre": "Top Camuflado",
+        "precio": 590,
+        "nombreBoton": "Top Camuflado"
+    },
+    {
+        "id": 10,
+        "imagen": "ImagenesProductos/conjunto_molly.png",
+        "alt": "Conjunto Deportivo",
+        "nombre": "Conjunto Molly",
+        "precio": 1890,
+        "nombreBoton": "Conjunto Molly"
+    },
+    {
+        "id": 11,
+        "imagen": "ImagenesProductos/calza_akira.jpg",
+        "alt": "Calza deportiva",
+        "nombre": "Calza Akira",
+        "precio": 1290,
+        "nombreBoton": "Calza Akira"
+    },
+    {
+        "id": 12,
+        "imagen": "ImagenesProductos/top_cresida.png",
+        "alt": "Top deportivo",
+        "nombre": "Top Crésida",
+        "precio": 690,
+        "nombreBoton": "Top Crésida"
+    },
+    {
+        "id": 13,
+        "imagen": "ImagenesProductos/top_luna.png",
+        "alt": "Remera",
+        "nombre": "Remera Luna",
+        "precio": 890,
+        "nombreBoton": "Remera Luna"
+    },
+    {
+        "id": 14,
+        "imagen": "ImagenesProductos/buzo_sky.png",
+        "alt": "Buzo",
+        "nombre": "Buzo Sky",
+        "precio": 990,
+        "nombreBoton": "Buzo Sky"
+    },
+    {
+        "id": 15,
+        "imagen": "ImagenesProductos/campera_gala.png",
+        "alt": "Campera Deportiva",
+        "nombre": "Campera Gala",
+        "precio": 1490,
+        "nombreBoton": "Campera Gala"
+    }
+]
